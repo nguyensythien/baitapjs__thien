@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- style css -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <!-- tính lương nhân viên  -->
+  <div class="baitap">
+    <h2>Tính lương nhân viên</h2>
+    <h5>Lương một ngày</h5>
+    <input id="luongmotngay" type="number" placeholder="Nhập lương một ngày vào đây">
+    <h5>Số Ngày làm</h5>
+    <input id="songaylam" type="number" placeholder="Nhập số ngày làm vào đây">
+    <button onclick="tinhluong()">Tính lương</button>
+    <h5>Lương thực nhận là</h5>
+    <p id="ketquane"></p>
+  </div>
+  <!-- Tính giá trị trung bình -->
+  <div class="baitap">
+    <h2>Tính giá trị trung bình</h2>
+    <h5>Số thứ 1</h5>
+    <input type="number" id="sothu1">
+    <h5>Số thứ 2</h5>
+    <input type="number" id="sothu2">
+    <h5>Số thứ 3</h5>
+    <input type="number" id="sothu3">
+    <h5>Số thứ 4</h5>
+    <input type="number" id="sothu4">
+    <h5>Số thứ 5</h5>
+    <input type="number" id="sothu5">
+    <button onclick="tinhgiatritb()">Tính</button>
+    <h5>Giá trị trung bình</h5>
+    <p id="ketquacuoicung"></p>
+  </div>
+  <!--  Quy đổi tiền -->
+  <div class="baitap">
+    <h2>Quy đổi tiền dollar</h2>
+    <h5>Tỉ giá VND / USD</h5>
+    <input id="tigiadola" type="number" placeholder="Nhập tỉ giá">
+    <h5>Tiền VND đổi đcược</h5>
+    <input id="sodola" type="number" placeholder="Nhập số dollar">
+    <button onclick="quydoi()">Đổi</button>
+    <h5>Số VNĐ đổi được</h5>
+    <p id="tongtiennhanduoc"></p>
+  </div>
+  <!--  Tính diện tích, chu vi hình chữ nhật -->
+  <div class="baitap">
+    <h2> Tính diện tích, chu vi hình chữ nhật</h2>
+    <h5>Chiều dài</h5>
+    <input id="chieudai" type="number" placeholder="Nhập chiều dài">
+    <h5>Tiền VND đổi đcược</h5>
+    <input id="chieurong" type="number" placeholder="Nhập chiều rộng">
+    <button onclick="tinhtoan()">tính</button>
+    <h5>Chu vi là</h5>
+    <p id="dapsochuvi"></p>
+    <h5>Diện tích là</h5>
+    <p id="dapsodientich"></p>
+  </div>
+  <!-- Tính tổng 2 ký số -->
+  <div class="baitap">
+    <h2>Tính tổng 2 ký số</h2>
+    <h5>Nhập số có hai chữ số</h5>
+    <input id="socantinh" type="number" placeholder="Nhập Số cần tính">
+    <button onclick="tinhkyso()">Tính</button>
+    <h5>Số đơn vị</h5>
+    <p id="sohangdonvila"></p>
+    <h5>Số hàng chục là</h5>
+    <p id="sohangchucla"></p>
+    <h5>Tổng hai ký số là</h5>
+    <p id="tonghaikysola"></p>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="../index.js"></script>
+</body>
+
+</html>
